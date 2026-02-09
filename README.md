@@ -15,18 +15,23 @@ OroSee の公式ドキュメントサイトのリポジトリです。
 
 このプロジェクトを手元で動かしてプレビューする手順です。
 
-1. **依存関係のインストール**
+1. **リポジトリのクローン**
+   ```bash
+   git clone https://github.com/autoro-io/OroSee_User_Document.git
+   cd OroSee_User_Document
+   ```
+2. **依存関係のインストール**
    ```bash
    npm install
    ```
 
-2. **開発サーバーの起動**
+3. **開発サーバーの起動**
    ```bash
    npm run dev
    ```
    ブラウザで `http://localhost:4321` を開くとプレビューできます。
 
-3. **ビルド (本番用ファイルの生成)**
+4. **ビルド (本番用ファイルの生成)**
    ```bash
    npm run build
    ```
