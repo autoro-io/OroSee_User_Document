@@ -1,49 +1,51 @@
-# Starlight Starter Kit: Basics
+# OroSee ドキュメント
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+OroSee の公式ドキュメントサイトのリポジトリです。  
+静的サイトジェネレーター [Astro](https://astro.build/) とドキュメントテーマ [Starlight](https://starlight.astro.build/) を使用して構築されています。
 
-```
-npm create astro@latest -- --template starlight
-```
+## 📚 ドキュメント構成
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+主なドキュメントは `src/content/docs/` ディレクトリ内に格納されています。
 
-## 🚀 Project Structure
+- **はじめに**: サービスの導入部分
+- **ガイド**: 組織管理、プロジェクト管理、インタビュー管理などの操作マニュアル
+- **サポート・付録**: よくある質問、用語集、お問い合わせ
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+## 🚀 ローカルでの実行方法
 
-```
+このプロジェクトを手元で動かしてプレビューする手順です。
+
+1. **依存関係のインストール**
+   ```bash
+   npm install
+   ```
+
+2. **開発サーバーの起動**
+   ```bash
+   npm run dev
+   ```
+   ブラウザで `http://localhost:4321` を開くとプレビューできます。
+
+3. **ビルド (本番用ファイルの生成)**
+   ```bash
+   npm run build
+   ```
+   `dist/` ディレクトリに静的ファイルが出力されます。
+
+## 🛠 プロジェクト構造
+
+```text
 .
-├── public/
+├── public/           # 静的ファイル (画像など)
 ├── src/
-│   ├── assets/
 │   ├── content/
-│   │   └── docs/
+│   │   └── docs/     # ドキュメントのMarkdownファイルはここ
 │   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+├── astro.config.mjs  # AstroとStarlightの設定ファイル
+└── package.json
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+## 📝 編集・追加について
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
-
-Static assets, like favicons, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+新しいページを追加する場合は `src/content/docs/` 内に `.md` または `.mdx` ファイルを作成してください。
+サイドバーのメニュー構成は `astro.config.mjs` で管理されています。
