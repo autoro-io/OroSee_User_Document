@@ -26,6 +26,7 @@ export default defineConfig({
 						{ label: '7. クイックウィン分析', slug: 'guides/7-quick-win-analysis' },
 						{ label: '8. ワークフロー管理', slug: 'guides/8-workflow-management' },
 						{ label: '9. 設定', slug: 'guides/9-settings' },
+						{ label: '10. RAGとナレッジ(Beta)', slug: 'guides/10-rag-knowledge' },
 					],
 				},
 				{
