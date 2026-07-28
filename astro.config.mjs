@@ -20,10 +20,10 @@ export default defineConfig({
 				{
 					label: '3. 使ってみる',
 					items: [
-						{ label: '③-1 インタビュー管理', slug: 'guides/interview-management' },
-						{ label: '③-2 業務管理', slug: 'guides/business-management' },
-						{ label: '③-3 ワークフロー管理', slug: 'guides/workflow-management' },
-						{ label: '③-4 クイックウィン分析', slug: 'guides/quick-win-analysis' },
+						{ label: '③-1 インタビューを実施する', slug: 'guides/interview-management' },
+						{ label: '③-2 業務を整理する', slug: 'guides/business-management' },
+						{ label: '③-3 ワークフローを確認・活用する', slug: 'guides/workflow-management' },
+						{ label: '③-4 クイックウィンを分析する', slug: 'guides/quick-win-analysis' },
 					],
 				},
 				{
