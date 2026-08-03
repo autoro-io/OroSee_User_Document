@@ -48,6 +48,17 @@ description: 業務から自動生成されたワークフローの確認・可�
 ![ワークフローの入出力を可視化](../../../../public/workflows/workflow-detail-io.png)
 左側の *(I/O)* ボタンをクリックする各ワークフロの入出力データを確認できます。
 
+### 矢印の操作
+1. ブロックごとに繋がっている矢印をクリックしたまま上下に動かすことで見やすくすることができます。
+![矢印をクリックしたまま](../../../../public/workflows/workflow-detail-arrow-change-1.png)
+![矢印をクリックしたまま上下に移動](../../../../public/workflows/workflow-detail-arrow-change-2.png)
+2. 矢印がいらない時に矢印をクリックして削除することができます。
+![矢印を削除](../../../../public/workflows/workflow-detail-arrow-delete.png)
+
+### 操作の取り消し
+![操作の取消](../../../../public/workflows/workflow-detail-stack.png)
+行った操作を取り消したいときは「戻る」ボタン、取り消しをやり直したいときは「進む」ボタンをクリックします。
+
 ## ワークフローの編集・削除
 
 **編集：**
