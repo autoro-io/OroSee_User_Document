@@ -35,12 +35,6 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'プランについて',
-					items: [
-						{ label: 'プラン反映（キャッシュ）', slug: 'plan/plan-explain' },
-					]
-				},
-				{
 					label: 'サポート・付録',
 					autogenerate: { directory: 'reference' },
 				},
