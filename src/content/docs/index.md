@@ -7,7 +7,7 @@ description: OroSeeの基本的な使い方について学べる
 
 <svg class="orosee-flow" width="100%" viewBox="0 0 680 512" role="img" style="max-width:640px;display:block;margin:1rem auto;height:auto" xmlns="http://www.w3.org/2000/svg">
   <title>OroSeeの全体処理の流れ</title>
-  <desc>プロジェクト準備から、インタビュー、業務の洗い出し、ワークフロー生成、クイックウィン分析へと進む一連の流れ。全工程をAIとドメイン知識（RAG）が支援する。</desc>
+  <desc>プロジェクト準備から、インタビュー、業務の洗い出し、ワークフロー生成、クイックウィン分析へと進む一連の流れ。全工程をAIと業務知識（RAG）が支援する。</desc>
   <style>
     .orosee-flow text{font-family:inherit}
     .orosee-flow .of-t{font-size:14px;font-weight:500}
@@ -63,5 +63,5 @@ description: OroSeeの基本的な使い方について学べる
   <text class="of-s teal-s" x="340" y="406" text-anchor="middle">自動化の優先度を可視化</text>
 
   <rect class="coral" x="40" y="446" width="600" height="46" rx="8"/>
-  <text class="of-t coral-t" x="340" y="474" text-anchor="middle">全工程を AI × ドメイン知識（RAG）が支援</text>
+  <text class="of-t coral-t" x="340" y="474" text-anchor="middle">全工程を AI × 業務知識（RAG）が支援</text>
 </svg>
