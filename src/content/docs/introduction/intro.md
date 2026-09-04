@@ -55,7 +55,7 @@ description: OroSeeの説明
 
   <rect class="teal" x="160" y="280" width="360" height="56" rx="8"/>
   <text class="of-t teal-t" x="340" y="308" text-anchor="middle">③ ワークフロー生成</text>
-  <text class="of-s teal-s" x="340" y="326" text-anchor="middle">業務プロセスをBPMNで可視化</text>
+  <text class="of-s teal-s" x="340" y="326" text-anchor="middle">業務プロセスをワークフローで可視化</text>
   <line class="of-line" x1="340" y1="336" x2="340" y2="358" marker-end="url(#oflow-arrow)"/>
 
   <rect class="teal" x="160" y="360" width="360" height="56" rx="8"/>
