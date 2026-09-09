@@ -1,6 +1,6 @@
 ---
 title: サマリー比較
-description: サマリ比較
+description: サマリー比較
 ---
 
 ### サマリー比較
