@@ -37,7 +37,13 @@ export default defineConfig({
 				},
 				{
 					label: 'サポート・付録',
-					autogenerate: { directory: 'reference' },
+					items: [
+						{ label: 'お問い合わせ窓口', slug: 'reference/contact-us' },
+						{ label: 'よくある質問', slug: 'reference/fqa' },
+						{ label: '用語集', slug: 'reference/glossary' },
+						{ label: 'トラブルシューティング', slug: 'reference/troubleshooting' },
+						{ label: 'リリースノート', slug: 'reference/release-notes' },
+					],
 				},
 			],
 		}),
