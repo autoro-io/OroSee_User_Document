@@ -29,7 +29,6 @@ export default defineConfig({
 				{
 					label: '4. もっと活用する',
 					items: [
-						{ label: '設定のカスタマイズ', slug: 'advanced/settings' },
 						{ label: '業務知識とRAG', slug: 'advanced/rag-knowledge' },
 						{ label: 'ドキュメント取り込み', slug: 'advanced/document-ingestion' },
 						{ label: 'サマリー比較', slug: 'advanced/summary-comparison'}

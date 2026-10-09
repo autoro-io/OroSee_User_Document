@@ -7,7 +7,7 @@ description: OroSeeの説明
 
 <svg class="orosee-flow" width="100%" viewBox="0 0 680 512" role="img" style="max-width:640px;display:block;margin:1rem auto;height:auto" xmlns="http://www.w3.org/2000/svg">
   <title>OroSeeの全体処理の流れ</title>
-  <desc>プロジェクト準備から、インタビュー、業務の洗い出し、ワークフロー生成、クイックウィン分析へと進む一連の流れ。全工程をAIとドメイン知識（RAG）が支援する。</desc>
+  <desc>プロジェクト準備から、インタビュー、業務の洗い出し、ワークフロー生成、クイックウィン分析へと進む一連の流れ。全工程をAIと業務知識（RAG）が支援する。</desc>
   <style>
     .orosee-flow text{font-family:inherit}
     .orosee-flow .of-t{font-size:14px;font-weight:500}
@@ -63,7 +63,7 @@ description: OroSeeの説明
   <text class="of-s teal-s" x="340" y="406" text-anchor="middle">自動化の優先度を可視化</text>
 
   <rect class="coral" x="40" y="446" width="600" height="46" rx="8"/>
-  <text class="of-t coral-t" x="340" y="474" text-anchor="middle">全工程を AI × ドメイン知識（RAG）が支援</text>
+  <text class="of-t coral-t" x="340" y="474" text-anchor="middle">全工程を AI × 業務知識（RAG）が支援</text>
 </svg>
 
 ### 1.1 OroSeeとは
@@ -86,7 +86,7 @@ OroSeeは、業務プロセスの可視化と自動化優先度分析を支援�
 | **業務管理** | 業務情報の登録・編集、AIによる自動生成、スコアリング |
 | **クイックウィン分析** | 自動化優先度のバブルチャート表示、分析レポート |
 | **ワークフロー管理** | 業務プロセスの可視化、AIによるワークフロー自動生成 |
-| **ドメイン知識管理** | 業界固有の知識をプリセットまたはカスタムで管理 |
+| **業務知識管理** | 業界固有の知識をプリセットまたはカスタムで管理 |
 
 ### 1.3 ユーザーの役割と権限
 
@@ -109,7 +109,7 @@ OroSeeでは、プロジェクトごとに4種類の役割（ロール）を設�
 | インタビュー | ✅ 全権限 | ✅ 全権限 | 作成・編集 | 👁閲覧のみ |
 | ワークフロー | ✅ 全権限 | ✅ 全権限 | 作成・編集 | 👁閲覧のみ |
 | クイックウィン | ✅ 全権限 | ✅ 全権限 | 作成・編集 | 👁閲覧のみ |
-| ドメイン知識 | ✅ 全権限 | ✅ 全権限 | 👁閲覧のみ | 👁閲覧のみ |
+| 業務知識 | ✅ 全権限 | ✅ 全権限 | 👁閲覧のみ | 👁閲覧のみ |
 
 ### 1.4 動作環境・推奨ブラウザ
 
