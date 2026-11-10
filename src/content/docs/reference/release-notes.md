@@ -5,7 +5,7 @@ description: OroSee の更新内容をお知らせします
 
 OroSee の更新内容を掲載します。
 
-### YYYY-MM-DD
+### 2026-11-10
 
 #### 新機能・機能改善
 
