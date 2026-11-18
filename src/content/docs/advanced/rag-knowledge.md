@@ -41,26 +41,30 @@ description: 業務知識とRAGの概要、RAGナレッジの作成方法とイ�
 ## 業務知識の作成
 
 ### 方法A： テキストから作成
-#### Step1 設定画面で「業務知識」タブを選択
+#### Step1 設定画面を開く
+![設定画面を開く](/rag-knowledge/make-knowledge-step1.png)
+#### Step2 設定画面で「業務知識」タブを選択
 ![業務知識タブ](../../../../public/rag-knowledge/select-businessknowledge-tab-step1.png)
-#### Step2 「新規追加」ボタンをクリック
+#### Step3 「新規追加」ボタンをクリック
 ![新規追加ボタン](../../../../public/rag-knowledge/make-business-knowledge-text-step2.png)
-#### Step3 以下の情報を入力：
+#### Step4 以下の情報を入力：
    - **業務知識名**（必須）：業務知識の名前
    - **知識**（必須）：具体的な業務知識の内容
 ![入力内容](../../../../public/rag-knowledge/make-business-knowledge-text-step3.png)
-#### Step4 「保存」をクリック
+#### Step5 「保存」をクリック
 
 ### 方法B: PDF 取り込み作成
-#### Step1 設定画面で「業務知識」タブを選択
+#### Step1 設定画面を開く
+![設定画面を開く](/rag-knowledge/make-knowledge-step1.png)
+#### Step2 設定画面で「業務知識」タブを選択
 ![業務知識タブ](../../../../public/rag-knowledge/select-businessknowledge-tab-step1.png)
-#### Step2 「取り込みボタン」ボタンをクリック
+#### Step3 「取り込み」ボタンをクリック
 ![取り込みボタン](../../../../public/rag-knowledge/make-business-knowledge-pdf-step2.png)
-#### Step3 以下の情報を入力：
-   - **業務知識名**（必須）：業務知識の名前
+#### Step4 以下の情報を入力：
+   - **業務知識名**（任意）：業務知識の名前（入力しない場合はファイル名が業務知識名となります）
    - **PDFファイル**（必須）：具体的な業務知識の内容が載ったPDF
 ![入力内容](../../../../public/rag-knowledge/make-business-knowledge-pdf-step3.png)
-#### Step4 「取り込んで生成」をクリック
+#### Step5 「取り込んで生成」をクリック
 
 ## ナレッジの作成
 RAGナレッジは複数の方法で作成できます。**どの方法でも作成されるナレッジは同じ**です。目的に合う方法を選んでください。
